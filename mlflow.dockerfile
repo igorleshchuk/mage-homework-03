@@ -7,6 +7,6 @@ EXPOSE 5000
 CMD [ \
     "mlflow", "server", \
     "--backend-store-uri", "sqlite:///home/mlflow_data/mlflow.db", \
-    "--host", "0.0.0.0", \
+    "--host", "127.0.0.1", \
     "--port", "5000" \
 ]
